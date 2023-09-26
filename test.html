@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Your Simple Website</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d4c0e2;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .mainimage{
+            position: absolute;
+    top: 52px;
+    left: 52px;
+    width: 100px;
+        }
+
+        nav {
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+           
+           
+    word-spacing: 15px;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+       
+
+       
+        .search-container {
+            display: flex;
+    position: relative;
+    width: 240px;
+    float: right;
+    padding: 5px;
+    border-radius: 5px;
+    top: -48px;
+   
+        }
+
+        .search-input {
+            border: none;
+            width: 100%;
+            padding: 5px;
+            outline: none;
+           
+
+        }
+        .heroblock{
+            position: relative;
+    width: 97%;
+    padding: 20px;
+    top: -18px;
+        }
+        .subclass{
+           
+    padding: 20px;
+    /* margin: 51px; */
+    left: 23px;
+   
+        }
+        .button {border-radius: 12px;}
+        .buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+   
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Super AI</h1>
+        <img class="mainimage" src="chatgpt.png" alt="Flowers in Chania">
+       
+        <div class="search-container">
+           
+            <input type="text" class="search-input" placeholder="Search...">
+            <button type="submit"><i class="fa fa-search"></i> </button>
+        </div>
+         
+         
+    </header>
+
+   
+   
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+   
+    <div class="hero">
+        <img class="heroblock" src="download.png">
+
+    </div>
+   
+    <div>
+        <div class="subclass">
+            <h3>How can we help you today?</h3>
+           
+          </div>
+        <button class="btn-hover color-8">Information Guide</button>
+        <button class="btn-hover color-8">Signing Up to Super</button>
+        <button class="btn-hover color-8">Comparing Super</button>
+        <button class="btn-hover color-8">Super Resources</button>
+        <button class="btn-hover color-8">Check Super Account</button>
+        <button class="btn-hover color-8">Combine Super</button>
+        <button class="btn-hover color-8">Others</button>
+
+</div>
+   
+</body>
+</html>
